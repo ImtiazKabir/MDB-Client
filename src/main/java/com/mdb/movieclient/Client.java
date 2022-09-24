@@ -1,10 +1,7 @@
 package com.mdb.movieclient;
 
 import archive.entity.Movie;
-import archive.info.InfoWrapper;
-import archive.info.LoginInfo;
 import archive.info.SessionInfo;
-import com.google.gson.Gson;
 import javafx.application.Platform;
 import util.SocketWrapper;
 
