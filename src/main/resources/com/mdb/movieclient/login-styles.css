@@ -1,0 +1,29 @@
+.login-button, .close-button {
+    -fx-background-color:  #2A2D3C;
+    -fx-border-color:  #E5688A;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+    -fx-border-width: 4;
+}
+
+.login-button:hover, .login-button:focused, .close-button:hover, .close-button:focused{
+    -fx-text-fill: #2A2D3C;
+    -fx-background-color: #E5688A;
+}
+
+
+.login-box {
+    -fx-background-color:  #2A2D3C;
+}
+
+.input-anchor {
+    -fx-background-color:  #33354A;
+    -fx-border-color:  #797EAE;
+}
+
+.input-field {
+    -fx-text-fill: #AAAAAA;
+    -fx-background-color:  #33354A;
+}
+
+

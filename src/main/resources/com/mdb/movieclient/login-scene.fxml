@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mdb.movieclient.LoginController">
+   <children>
+      <ImageView fitHeight="290.0" fitWidth="1024.0" layoutY="232.0" pickOnBounds="true" scaleY="2.7">
+         <image>
+            <Image url="@wallpaperflare.com_wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="329.0" layoutY="171.0" prefHeight="427.0" prefWidth="366.0" styleClass="login-box" stylesheets="@login-styles.css">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="133.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@user.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="58.0" layoutY="149.0" text="Login to your company account" textFill="#aaaaaa">
+               <font>
+                  <Font name="Maiandra GD" size="18.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutY="187.0" prefHeight="54.0" prefWidth="366.0" styleClass="input-anchor" stylesheets="@login-styles.css">
+               <children>
+                  <TextField fx:id="userNameInput" layoutX="30.0" layoutY="12.0" promptText="Username" styleClass="input-field" stylesheets="@login-styles.css">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+               </children></AnchorPane>
+            <AnchorPane layoutY="241.0" prefHeight="54.0" prefWidth="366.0" style="-fx-background-color: #33354A; -fx-border-color: #797EAE;" styleClass="input-anchor">
+               <children>
+                  <PasswordField fx:id="passwordInput" layoutX="30.0" layoutY="12.0" promptText="Password" style="-fx-background-color: #33354A; -fx-text-fill: #AAAAAA;" styleClass="input-field">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </PasswordField>
+               </children>
+            </AnchorPane>
+            <Button defaultButton="true" layoutX="109.0" layoutY="351.0" mnemonicParsing="false" onAction="#loginButtonCallback" prefWidth="150.0" styleClass="login-button" stylesheets="@login-styles.css" text="LOG IN" textFill="#e5688a">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Label fx:id="invalidInfoLabel" layoutX="82.0" layoutY="315.0" text="Invalid Username or Password!" textFill="#f86666" visible="false">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="325.0" layoutY="11.0" mnemonicParsing="false" onAction="#closeButtonCallback" styleClass="close-button" stylesheets="@login-styles.css" text="X" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

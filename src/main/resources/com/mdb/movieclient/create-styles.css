@@ -1,0 +1,23 @@
+.company-label {
+    -fx-background-color:  #191C2B;
+    -fx-background-radius: 40;
+}
+
+.input-field {
+    -fx-text-fill: #AAAAAA;
+    -fx-background-color:  #33354A;
+}
+
+.button {
+    -fx-background-color:  #2A2D3C;
+    -fx-border-color:  #E5688A;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+    -fx-border-width: 4;
+}
+
+.button:hover, .button:focused {
+    -fx-text-fill: #2A2D3C;
+    -fx-background-color: #E5688A;
+}
+

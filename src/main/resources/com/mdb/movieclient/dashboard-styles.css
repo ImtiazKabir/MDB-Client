@@ -1,0 +1,123 @@
+.board {
+    -fx-background-color:  #2A2D3C;
+    -fx-background-radius: 0 40 40 0;
+}
+
+.side-panel {
+    -fx-background-color:  #33354A;
+    -fx-background-radius: 40 0 0 40;
+}
+
+.logout-button {
+    -fx-background-color:  #2A2D3C;
+    -fx-border-color:  #E5688A;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-width: 2;
+}
+
+.logout-button:hover, .logout-button:focused{
+    -fx-text-fill: #2A2D3C;
+    -fx-background-color: #E5688A;
+}
+
+.profit-label {
+    -fx-background-color: #68E58A;
+    -fx-background-radius: 20;
+}
+
+.movie-count-label {
+    -fx-background-color: #8A68E5;
+    -fx-background-radius: 20;
+}
+
+.filter-field {
+    -fx-background-color: #F1EB9C;
+}
+
+.filter-clear {
+    -fx-background-color:  #2A2D3C;
+    -fx-border-color:  #E5688A;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-width: 2;
+}
+
+.filter-clear:hover, .filter-clear:focused {
+    -fx-text-fill: #2A2D3C;
+    -fx-background-color: #E5688A;
+}
+
+.scroll-pane {
+    -fx-background:  #2A2D3C;
+    -fx-border-color: #2A2D3C;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #8A68E5;
+    -fx-background-radius: 5em;
+}
+
+.create-button {
+    -fx-background-color:  #2A2D3C;
+    -fx-border-color:  #E5688A;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-width: 2;
+}
+
+.create-button:hover {
+    -fx-text-fill: #2A2D3C;
+    -fx-background-color: #E5688A;
+}
+
+.radio-button .radio {
+    -fx-border-width: 2px;
+    -fx-border-color: #E5688A;
+    -fx-background-color:#33354A;
+    -fx-background-image: null;
+    -fx-border-radius: 5px;
+    -fx-padding: 3px;
+}
+
+.radio-button .radio:selected {
+    -fx-background-color: #33354A;
+    -fx-border-color: #E5688A;
+    -fx-background-image: null;
+}
+.radio-button -radio:armed {
+    -fx-background-color: #33354A;
+    -fx-border-color: #E5688A;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: #33354A;
+    -fx-border-color: #E5688A;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: #33354A;
+    -fx-border-color: #E5688A;
+    -fx-background-image: null;
+}
+.radio-button .dot {
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+    -fx-mark-color: white;
+}
+
+

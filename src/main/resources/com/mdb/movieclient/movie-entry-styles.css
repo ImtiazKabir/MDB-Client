@@ -1,0 +1,15 @@
+.entity-card {
+    -fx-background-color:  #241F2A;
+    -fx-background-radius: 40;
+    -fx-border-radius: 40;
+}
+
+.transfer-button {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+}
+
+.transfer-button:hover, transfer:focus {
+    -fx-background-color: #3F6EFF;
+}

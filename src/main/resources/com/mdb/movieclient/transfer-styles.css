@@ -1,0 +1,94 @@
+.transfer-details-anchor {
+    -fx-background-color:  #2A2D3C;
+}
+
+.transfer-label-anchor {
+    -fx-background-color: #241F2A;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+.movie-name-anchor, .from-anchor {
+    -fx-background-color: #33354A;
+}
+
+.radio-button {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+
+.radio-button .radio {
+    -fx-border-width: 2px;
+    -fx-border-color: #E5688A;
+    -fx-background-color:#33354A;
+    -fx-background-image: null;
+    -fx-border-radius: 5px;
+    -fx-padding: 3px;
+}
+
+.radio-button .radio:selected {
+    -fx-background-color: #33354A;
+    -fx-border-color: #E5688A;
+    -fx-background-image: null;
+}
+.radio-button -radio:armed {
+    -fx-background-color: #33354A;
+    -fx-border-color: #E5688A;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: #33354A;
+    -fx-border-color: #E5688A;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: #33354A;
+    -fx-border-color: #E5688A;
+    -fx-background-image: null;
+}
+.radio-button .dot {
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+    -fx-mark-color: white ;
+}
+
+.scroll-pane {
+    -fx-background:  #2A2D3C;
+    -fx-border-color: #2A2D3C;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #8A68E5;
+    -fx-background-radius: 5em;
+}
+
+.button {
+    -fx-background-color:  #2A2D3C;
+    -fx-border-color:  #E5688A;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+    -fx-border-width: 4;
+}
+
+.button:hover, .button:focused {
+    -fx-text-fill: #2A2D3C;
+    -fx-background-color: #E5688A;
+}
+
